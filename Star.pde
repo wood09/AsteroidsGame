@@ -5,7 +5,7 @@ class Star //note that this class does NOT extend Floater
   Star() {
     myX = Math.random()*500;
     myY = Math.random()*500;
-    myColor = color(200,200,200);
+    myColor = color(0);
     mySize = (Math.random()*3)+3;
    }
    public void draw() {
